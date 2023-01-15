@@ -29,6 +29,7 @@ body{
     color: #727272;
     margin-bottom: 2em;
 }
+
     
 
 .common-button{
@@ -138,3 +139,59 @@ width: 55px;
     font-weight: 600;
 font-size: 20px;
 width: 169px;}
+/* sponsors */
+.sponsors-title h3{
+    margin-top: 130px;
+    font-weight: 700;
+font-size: 35px;
+text-align: center;
+}
+.sponsors-title p {
+    text-align: center;
+    color: #727272;
+    
+}
+.sponsors {
+    display: flex;
+    gap: 160px;
+    margin: 50px 240px 240px 130px;
+}
+/* footer */
+
+.footer {
+font-weight: 400;
+font-size: 20px;
+margin: 150px 35%;
+}
+@media only screen  and (max-width:688px) {
+    .header-title{
+        margin-right: 400px;
+    }
+    .header-title{
+        font-size: 40px; 
+        text-align: center;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .about-features-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features{
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    .facts{
+        flex-direction: column;
+    }
+    .sponsors{
+        flex-direction: column;
+    }
+    .footer{
+        text-align: center;
+        margin: auto;
+    }
+}
+
+    
